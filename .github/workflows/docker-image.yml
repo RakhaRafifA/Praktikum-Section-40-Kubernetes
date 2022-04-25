@@ -15,6 +15,5 @@ jobs:
         image: ${{ secrets.REPOSITORY_DOCKER_HUB }}
         tags: latest
         registry: docker.io
-        dockerfile: Dockerfile
         username: ${{ secrets.USERNAME_DOCKER_HUB }}
         password: ${{ secrets. PASSWORD_DOCKER_HUB }}
