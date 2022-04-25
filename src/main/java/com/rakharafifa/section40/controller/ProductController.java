@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/section40")
-public class ProductController {
+public class ProductController{
     ProductService productService;
 
     @Autowired
